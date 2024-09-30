@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/four-card-feature-section---using-css-grid-gD4U4tCtzi)
 - Live Site URL: [Add live site URL here](https://jj-codes-9.github.io/four-card-feature-section-master/)
 
 ## My process
