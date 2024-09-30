@@ -1,0 +1,173 @@
+/* CSS Reset by Eric Meyer v2.0 */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*Four Card Feature Section Styling */
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Main section styling */
+.main-section {
+    padding: 120px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.main-section h1 {
+    font-size: 28px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.main-section h2 {
+    font-size: 22px;
+    color: #333;
+    font-weight: 600;
+}
+
+.main-section p {
+    font-size: 16px;
+    color: #777;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.middle-column {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+
+/* Feature Card styles */
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card p {
+    font-size: 15px;
+    color: #555;
+}
+
+.card img {
+    float: right;
+    max-width: 40px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+
+.supervisor {
+    border-top: 3px solid #7de3d2;
+}
+
+.team-builder {
+    border-top: 3px solid #f16664;
+}
+
+.calculator {
+    border-top: 3px solid #6c7af1;
+}
+
+.karma {
+    border-top: 3px solid #f1b84e;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    position: relative;
+    bottom: 0;
+}
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .middle-column {
+        grid-template-rows: unset;
+    }
+}
